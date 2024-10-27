@@ -2,5 +2,7 @@ services:
   next_app:
     build:
       context: .
+      args:
+        - NODE_VERSION=${NODE_VERSION}
     ports:
       - "5555:3000"
