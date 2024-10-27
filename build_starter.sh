@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "🏃🏿‍♂️‍➡️ setting NODE VERSION"
 export NODE_VERSION=22
