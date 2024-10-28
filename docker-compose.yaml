@@ -3,6 +3,6 @@ services:
     build:
       context: .
       args:
-        - NODE_VERSION=${NODE_VERSION}
+        - NODE_VERSION=${NODE_VERSION:-20}
     ports:
       - "5555:3000"
